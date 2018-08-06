@@ -1,0 +1,30 @@
+.section-one {
+    margin: 1rem auto;
+    width: 90%;
+}
+
+.background {
+    background-color: rgba(3, 200, 255, 0.2);
+}
+
+.img {
+    display: inline-block;
+    margin: 0.5rem auto;
+    width: 60%;
+}
+
+.img img {
+    max-width: 100%;
+}
+
+.content {
+    text-align: justify;
+}
+
+@media screen and (min-width: 1024px) {
+    .background {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

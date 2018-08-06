@@ -1,0 +1,23 @@
+.App-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222;
+    height: 100px;
+    padding: 20px;
+    color: white;
+  }
+
+.menu {
+    list-style: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.menu li:hover {
+    text-decoration: underline;
+}
